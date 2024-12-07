@@ -1,0 +1,7 @@
+pandas
+numpy
+google-cloud-storage
+scipy
+scikit-learn
+google-generativeai
+google-cloud-aiplatform
