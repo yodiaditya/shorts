@@ -6,6 +6,10 @@ How do you recommend short videos when all you have is the raw file and no metad
 Presentation at Google Dev Fest 2024
 https://gdg.community.dev/events/details/google-gdg-jakarta-presents-devfest-jakarta-2024/
 
+Watch 15-minutes Youtube videos of the full explanation
+
+[![Watch the video](https://img.youtube.com/vi/wN3T5NCTSAY/0.jpg)](https://www.youtube.com/watch?v=wN3T5NCTSAY&t=15744s)
+
 ## Pre-requisites 
 
 I'm using Ubuntu 24.04, Miniforge Python 3.11 and 2 x RTX 4090 for this. 
