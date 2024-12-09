@@ -2,13 +2,15 @@
 
 How do you recommend short videos when all you have is the raw file and no metadata? The explosion of user-generated short videos demands a reinvention in RecSys. Leveraging Generative AI and techniques, it’s possible to create systems delivering both viral hits and hidden gems.
 
-
 Presentation at Google Dev Fest 2024
 https://gdg.community.dev/events/details/google-gdg-jakarta-presents-devfest-jakarta-2024/
 
-Watch 15-minutes Youtube videos of the full explanation
+Watch 15-minutes Youtube videos of the full explanation 
+[http://youtu.be/wN3T5NCTSAY?t=15744s](http://youtu.be/wN3T5NCTSAY?t=15744s)
 
 [![Watch the video](https://img.youtube.com/vi/wN3T5NCTSAY/0.jpg)](https://www.youtube.com/watch?v=wN3T5NCTSAY&t=15744s)
+
+Free free to give star ⭐ for this project.
 
 ## Pre-requisites 
 
@@ -37,7 +39,8 @@ gsutil -m cp -r \
 ### 2. Process Raw Videos
 Run `convert.sh` in the folder of SDR. This will convert all the movies into compressed and 1 FPS (Frame per second). Reduced into 2.7GB.
 
-### 3. Upload into GCS (Google Cloud Storage)
+### 3. Upload to your GCS (Google Cloud Storage)
+Gemini will read the video from GCS 
 
 ```
 gsutil -m cp -r * gs://YOUR_BUCKET_NAME/small/
@@ -64,4 +67,4 @@ file	title	cosine_similarity
 You can play around with the `final_df.csv` and load it into ipynb.
 
 ## Credits
-Make by yodiaditya. Happy to connect with you over linkedin and Github!
+By @yodiaditya. Happy to connect with you over linkedin and Github!
